@@ -1,4 +1,4 @@
-/* ============================================
+﻿/* ============================================
    ClimaFix — AC Service Website Styles
    ============================================ */
 
@@ -1034,18 +1034,18 @@ ul {
     flex-direction: column !important;
     justify-content: flex-start !important;
     align-items: stretch !important;
-    padding-top: 0 !important;
+    padding: 0 !important;
     gap: 0 !important;
-    transform: translateX(100%) !important;
-    transition: transform 0.3s ease !important;
+    display: none !important; /* hidden by default */
+    
     z-index: 9999 !important;
-    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
     overflow-y: auto;
-    display: flex !important;
+    /* display set by active class */
   }
 
   .nav-menu.active {
-    transform: translateX(0) !important;
+    display: flex !important;
   }
 
   .nav-menu a {
