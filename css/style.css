@@ -167,7 +167,7 @@ ul {
   left: 0;
   right: 0;
   z-index: 10000;
-  background: #ffffff;
+  background: #ffffff !important;
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--border);
   transition: var(--transition);
@@ -1049,6 +1049,8 @@ ul {
 
   .burger {
     display: flex;
+    z-index: 10001;
+    position: relative;
   }
 
   .hero-content h1 {
