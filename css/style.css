@@ -166,8 +166,8 @@ ul {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000;
-  background: rgba(255, 255, 255, 0.95);
+  z-index: 10000;
+  background: #ffffff;
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--border);
   transition: var(--transition);
@@ -1011,15 +1011,15 @@ ul {
     left: 0;
     right: 0;
     bottom: 0;
-    background: var(--bg);
+    background: #ffffff;
     flex-direction: column;
     justify-content: flex-start;
-    padding-top: 40px;
+    padding-top: 0;
     gap: 0;
     transform: translateX(100%);
     transition: var(--transition);
     z-index: 9999;
-    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.15);
     overflow-y: auto;
   }
 
@@ -1034,8 +1034,9 @@ ul {
     width: 100%;
     text-align: center;
     border-bottom: 1px solid var(--border);
-    color: var(--text);
-    background: var(--bg);
+    color: #1e293b;
+    background: #ffffff;
+    display: block;
   }
 
   .nav-menu .lang-switcher {
