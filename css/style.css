@@ -1040,6 +1040,8 @@ ul {
 
   .burger { display: none !important; }
 
+  .nav-menu { display: none !important; }
+
   .hero-content h1 {
     font-size: 2rem;
   }
