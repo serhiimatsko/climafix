@@ -4,7 +4,7 @@
 
 // ---- Telegram Bot Config ----
 const TELEGRAM_BOT_TOKEN = '8602926329:AAHL8tgIdK8Nor8SLyLwRL0EgJwDdPt7MFI';
-const TELEGRAM_CHAT_ID = '139778492';
+const TELEGRAM_CHAT_ID = '-5412585521';
 
 // ---- Translations ----
 const translations = {
