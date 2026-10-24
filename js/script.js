@@ -1,4 +1,4 @@
-/* ============================================
+﻿/* ============================================
    ClimaFix — Main JavaScript
    ============================================ */
 
@@ -322,7 +322,6 @@ let currentLang = localStorage.getItem('climafix-lang') || 'bg';
 // ---- DOM Ready ----
 document.addEventListener('DOMContentLoaded', () => {
   initLanguage();
-  initMobileMenu();
   initSmoothScroll();
   initScrollAnimations();
   initScrollToTop();
@@ -404,31 +403,6 @@ function updateRegionDropdown(lang) {
     option.value = region;
     option.textContent = region;
     select.appendChild(option);
-  });
-}
-
-// ============================================
-// MOBILE MENU
-// ============================================
-function initMobileMenu() {
-  const burger = document.querySelector('.burger');
-  const navMenu = document.querySelector('.nav-menu');
-
-  if (!burger || !navMenu) return;
-
-  burger.addEventListener('click', () => {
-    burger.classList.toggle('active');
-    navMenu.classList.toggle('active');
-    document.body.style.overflow = navMenu.classList.contains('active') ? 'hidden' : '';
-  });
-
-  // Close menu when clicking a link
-  navMenu.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', () => {
-      burger.classList.remove('active');
-      navMenu.classList.remove('active');
-      document.body.style.overflow = '';
-    });
   });
 }
 
