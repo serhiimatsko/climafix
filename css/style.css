@@ -1038,11 +1038,7 @@ ul {
     margin-top: 10px;
   }
 
-  .burger {
-    display: flex;
-    z-index: 10001;
-    position: relative;
-  }
+  .burger { display: none !important; }
 
   .hero-content h1 {
     font-size: 2rem;
