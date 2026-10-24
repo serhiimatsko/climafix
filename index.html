@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="bg">
 <head>
   <meta charset="UTF-8">
@@ -448,5 +448,23 @@
 
   <!-- Scripts -->
   <script src="js/script.js"></script>
+  <script>
+    (function(){
+      var b=document.querySelector('.burger'),m=document.querySelector('.nav-menu');
+      if(!b||!m)return;
+      b.onclick=function(){
+        if(m.style.display==='flex'){
+          m.style.display='none';b.classList.remove('active');
+        }else{
+          m.style.cssText='display:flex!important;flex-direction:column!important;position:fixed!important;top:72px!important;left:0!important;right:0!important;bottom:0!important;background:#fff!important;z-index:99999!important;padding:20px 0!important;align-items:stretch!important;overflow-y:auto!important;box-shadow:0 5px 20px rgba(0,0,0,.2)!important;gap:0!important;';
+          b.classList.add('active');
+        }
+      };
+      var links=m.querySelectorAll('a');
+      for(var i=0;i<links.length;i++){
+        links[i].addEventListener('click',function(){m.style.cssText='';b.classList.remove('active');});
+      }
+    })();
+  </script>
 </body>
 </html>
