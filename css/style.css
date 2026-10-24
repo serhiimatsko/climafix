@@ -440,8 +440,9 @@ ul {
    SERVICES SECTION
    ============================================ */
 .services-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 30px;
 }
 
@@ -452,6 +453,7 @@ ul {
   box-shadow: var(--shadow);
   transition: var(--transition);
   border: 1px solid var(--border);
+  width: calc(33.333% - 20px);
 }
 
 .service-card:hover {
@@ -512,8 +514,9 @@ ul {
 }
 
 .regions-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
   max-width: 900px;
   margin: 0 auto;
@@ -527,6 +530,7 @@ ul {
   box-shadow: var(--shadow);
   transition: var(--transition);
   border: 2px solid transparent;
+  width: calc(25% - 15px);
 }
 
 .region-card:hover {
@@ -1005,7 +1009,12 @@ ul {
   }
 
   .services-grid {
-    grid-template-columns: 1fr;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-card {
+    width: 100%;
   }
 
   .form-row {
@@ -1021,7 +1030,11 @@ ul {
   }
 
   .regions-grid {
-    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
+
+  .region-card {
+    width: calc(50% - 10px);
   }
 }
 
@@ -1035,6 +1048,10 @@ ul {
   }
 
   .regions-grid {
-    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+
+  .region-card {
+    width: 100%;
   }
 }
