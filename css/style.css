@@ -1018,7 +1018,9 @@ ul {
     gap: 0;
     transform: translateX(100%);
     transition: var(--transition);
-    z-index: 999;
+    z-index: 9999;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
   }
 
   .nav-menu.active {
@@ -1026,11 +1028,14 @@ ul {
   }
 
   .nav-menu a {
-    padding: 16px 20px;
-    font-size: 1.1rem;
+    padding: 18px 20px;
+    font-size: 1.15rem;
+    font-weight: 600;
     width: 100%;
     text-align: center;
     border-bottom: 1px solid var(--border);
+    color: var(--text);
+    background: var(--bg);
   }
 
   .nav-menu .lang-switcher {
