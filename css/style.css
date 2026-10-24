@@ -4,16 +4,16 @@
 
 /* --- CSS Variables --- */
 :root {
-  --primary: #0284c7;
-  --primary-dark: #0369a1;
-  --primary-light: #e0f2fe;
-  --primary-lighter: #f0f9ff;
-  --secondary: #0891b2;
-  --accent: #f97316;
-  --accent-dark: #ea580c;
+  --primary: #0B3C5D;
+  --primary-dark: #082d47;
+  --primary-light: #d6e8f0;
+  --primary-lighter: #eaf2f7;
+  --secondary: #00A8A8;
+  --accent: #FF7A00;
+  --accent-dark: #e06a00;
   --bg: #ffffff;
-  --bg-alt: #f8fafc;
-  --bg-dark: #0f172a;
+  --bg-alt: #F4F7FA;
+  --bg-dark: #071e2f;
   --text: #1e293b;
   --text-light: #64748b;
   --text-white: #f1f5f9;
@@ -198,11 +198,11 @@ ul {
 .logo-text {
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--primary);
+  color: #0B3C5D;
 }
 
 .logo-text span {
-  color: var(--accent);
+  color: #FF7A00;
 }
 
 .nav-menu {
@@ -323,7 +323,7 @@ ul {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(135deg, #0369a1 0%, #0891b2 50%, #0284c7 100%);
+  background: linear-gradient(135deg, #0B3C5D 0%, #00A8A8 50%, #0B3C5D 100%);
   overflow: hidden;
   padding-top: 72px;
 }
@@ -436,7 +436,7 @@ ul {
 }
 
 .hero-content h1 span {
-  color: #fbbf24;
+  color: #FF7A00;
 }
 
 .hero-content p {
@@ -481,7 +481,7 @@ ul {
 .hero-stat .number {
   font-size: 2rem;
   font-weight: 800;
-  color: #fbbf24;
+  color: #FF7A00;
 }
 
 .hero-stat .label {
@@ -564,7 +564,7 @@ ul {
    REGIONS SECTION
    ============================================ */
 .regions {
-  background: linear-gradient(135deg, var(--primary-lighter) 0%, #ecfeff 100%);
+  background: linear-gradient(135deg, #F4F7FA 0%, #e0f5f5 100%);
 }
 
 .regions-grid {
@@ -662,7 +662,7 @@ ul {
    CONTACT FORM SECTION
    ============================================ */
 .contact-section {
-  background: linear-gradient(135deg, #0369a1 0%, #0891b2 100%);
+  background: linear-gradient(135deg, #0B3C5D 0%, #00A8A8 100%);
   color: #fff;
 }
 
@@ -914,7 +914,7 @@ ul {
 }
 
 .footer-bottom {
-  border-top: 1px solid #1e293b;
+  border-top: 1px solid #0B3C5D;
   padding: 20px 0;
   text-align: center;
   color: #64748b;
