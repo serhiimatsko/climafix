@@ -96,6 +96,7 @@ const translations = {
     formServiceFreon: 'Зареждане с фреон',
     formServiceInstall: 'Монтаж на климатик',
     formServiceRemove: 'Демонтаж на климатик',
+    formServiceOther: 'Друго',
     formRegion: 'Регион',
     formRegionDefault: 'Изберете регион',
     formMessage: 'Съобщение',
@@ -193,6 +194,7 @@ const translations = {
     formServiceFreon: 'Заправка фреоном',
     formServiceInstall: 'Монтаж кондиционера',
     formServiceRemove: 'Демонтаж кондиционера',
+    formServiceOther: 'Другое',
     formRegion: 'Регион',
     formRegionDefault: 'Выберите регион',
     formMessage: 'Сообщение',
@@ -289,6 +291,7 @@ const translations = {
     formServiceFreon: 'Freon Recharge',
     formServiceInstall: 'AC Installation',
     formServiceRemove: 'AC Removal',
+    formServiceOther: 'Other',
     formRegion: 'Region',
     formRegionDefault: 'Select a region',
     formMessage: 'Message',
@@ -308,9 +311,9 @@ const translations = {
 
 // ---- Region options per language ----
 const regionOptions = {
-  bg: ['Бургас', 'Слънчев бряг', 'Несебър', 'Поморие', 'Ахелой', 'Созопол', 'Черноморец', 'Сарафово', 'Равда', 'Свети Влас'],
-  ru: ['Бургас', 'Солнечный Берег', 'Несебр', 'Поморие', 'Ахелой', 'Созополь', 'Черноморец', 'Сарафово', 'Равда', 'Святой Влас'],
-  en: ['Burgas', 'Sunny Beach', 'Nessebar', 'Pomorie', 'Aheloy', 'Sozopol', 'Chernomorets', 'Sarafovo', 'Ravda', 'Sveti Vlas']
+  bg: ['Бургас', 'Слънчев бряг', 'Несебър', 'Поморие', 'Ахелой', 'Созопол', 'Черноморец', 'Сарафово', 'Равда', 'Свети Влас', 'Друго'],
+  ru: ['Бургас', 'Солнечный Берег', 'Несебр', 'Поморие', 'Ахелой', 'Созополь', 'Черноморец', 'Сарафово', 'Равда', 'Святой Влас', 'Другое'],
+  en: ['Burgas', 'Sunny Beach', 'Nessebar', 'Pomorie', 'Aheloy', 'Sozopol', 'Chernomorets', 'Sarafovo', 'Ravda', 'Sveti Vlas', 'Other']
 };
 
 // ---- Current language ----
