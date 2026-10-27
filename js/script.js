@@ -3,8 +3,8 @@
    ============================================ */
 
 // ---- Telegram Bot Config ----
-const TELEGRAM_BOT_TOKEN = '8602926329:AAHL8tgIdK8Nor8SLyLwRL0EgJwDdPt7MFI';
-const TELEGRAM_CHAT_ID = '-5412585521';
+const TELEGRAM_BOT_TOKEN = ':';
+const TELEGRAM_CHAT_ID = '-';
 
 // ---- Translations ----
 const translations = {
